@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "tvintila.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: "About"
+      - text: "Assignments"
+        menu:
+          - href: assignment_1.html
+            text: "1) Introduction"
+          - href: assignment2EDA.html
+            text: "2) EDA"
+          - href: KMA03.html
+            text: "3) Regression Plot"
+          - href: KMA4.html
+            text: "4) Clustering Demos"
+      - text: "Labs"
+        menu:
+          - href: Lab01.html
+            text: "Lab 01 Render"
+          - href: Lab02.html
+            text: "Lab 02 Render"
+          - href: Lab03.html
+            text: "Lab 03 Render"
+      - text: "Other"
+        menu:
+          - href: BreimanResponse.pdf
+            text: "PfC 2 - Review"
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+editor: visual
+
